@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFBD8F82211998D400F8157D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD8F81211998D400F8157D /* AppDelegate.m */; };
+		CFBD8F85211998D400F8157D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD8F84211998D400F8157D /* ViewController.m */; };
+		CFBD8F88211998D400F8157D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBD8F86211998D400F8157D /* Main.storyboard */; };
+		CFBD8F8A211998DA00F8157D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBD8F89211998DA00F8157D /* Assets.xcassets */; };
+		CFBD8F8D211998DA00F8157D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBD8F8B211998DA00F8157D /* LaunchScreen.storyboard */; };
+		CFBD8F90211998DA00F8157D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD8F8F211998DA00F8157D /* main.m */; };
+		CFBD8F9A211998DA00F8157D /* PayPassWordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD8F99211998DA00F8157D /* PayPassWordTests.m */; };
+		CFBD8FA5211998DA00F8157D /* PayPassWordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD8FA4211998DA00F8157D /* PayPassWordUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFBD8F96211998DA00F8157D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFBD8F75211998D400F8157D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFBD8F7C211998D400F8157D;
+			remoteInfo = PayPassWord;
+		};
+		CFBD8FA1211998DA00F8157D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFBD8F75211998D400F8157D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFBD8F7C211998D400F8157D;
+			remoteInfo = PayPassWord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFBD8F7D211998D400F8157D /* PayPassWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPassWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBD8F80211998D400F8157D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFBD8F81211998D400F8157D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFBD8F83211998D400F8157D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFBD8F84211998D400F8157D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFBD8F87211998D400F8157D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFBD8F89211998DA00F8157D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFBD8F8C211998DA00F8157D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFBD8F8E211998DA00F8157D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBD8F8F211998DA00F8157D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFBD8F95211998DA00F8157D /* PayPassWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPassWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBD8F99211998DA00F8157D /* PayPassWordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayPassWordTests.m; sourceTree = "<group>"; };
+		CFBD8F9B211998DA00F8157D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBD8FA0211998DA00F8157D /* PayPassWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPassWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBD8FA4211998DA00F8157D /* PayPassWordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayPassWordUITests.m; sourceTree = "<group>"; };
+		CFBD8FA6211998DA00F8157D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFBD8F7A211998D400F8157D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBD8F92211998DA00F8157D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBD8F9D211998DA00F8157D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFBD8F74211998D300F8157D = {
+			isa = PBXGroup;
+			children = (
+				CFBD8F7F211998D400F8157D /* PayPassWord */,
+				CFBD8F98211998DA00F8157D /* PayPassWordTests */,
+				CFBD8FA3211998DA00F8157D /* PayPassWordUITests */,
+				CFBD8F7E211998D400F8157D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFBD8F7E211998D400F8157D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD8F7D211998D400F8157D /* PayPassWord.app */,
+				CFBD8F95211998DA00F8157D /* PayPassWordTests.xctest */,
+				CFBD8FA0211998DA00F8157D /* PayPassWordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFBD8F7F211998D400F8157D /* PayPassWord */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD8F80211998D400F8157D /* AppDelegate.h */,
+				CFBD8F81211998D400F8157D /* AppDelegate.m */,
+				CFBD8F83211998D400F8157D /* ViewController.h */,
+				CFBD8F84211998D400F8157D /* ViewController.m */,
+				CFBD8F86211998D400F8157D /* Main.storyboard */,
+				CFBD8F89211998DA00F8157D /* Assets.xcassets */,
+				CFBD8F8B211998DA00F8157D /* LaunchScreen.storyboard */,
+				CFBD8F8E211998DA00F8157D /* Info.plist */,
+				CFBD8F8F211998DA00F8157D /* main.m */,
+			);
+			path = PayPassWord;
+			sourceTree = "<group>";
+		};
+		CFBD8F98211998DA00F8157D /* PayPassWordTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD8F99211998DA00F8157D /* PayPassWordTests.m */,
+				CFBD8F9B211998DA00F8157D /* Info.plist */,
+			);
+			path = PayPassWordTests;
+			sourceTree = "<group>";
+		};
+		CFBD8FA3211998DA00F8157D /* PayPassWordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD8FA4211998DA00F8157D /* PayPassWordUITests.m */,
+				CFBD8FA6211998DA00F8157D /* Info.plist */,
+			);
+			path = PayPassWordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFBD8F7C211998D400F8157D /* PayPassWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBD8FA9211998DA00F8157D /* Build configuration list for PBXNativeTarget "PayPassWord" */;
+			buildPhases = (
+				CFBD8F79211998D400F8157D /* Sources */,
+				CFBD8F7A211998D400F8157D /* Frameworks */,
+				CFBD8F7B211998D400F8157D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayPassWord;
+			productName = PayPassWord;
+			productReference = CFBD8F7D211998D400F8157D /* PayPassWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFBD8F94211998DA00F8157D /* PayPassWordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBD8FAC211998DA00F8157D /* Build configuration list for PBXNativeTarget "PayPassWordTests" */;
+			buildPhases = (
+				CFBD8F91211998DA00F8157D /* Sources */,
+				CFBD8F92211998DA00F8157D /* Frameworks */,
+				CFBD8F93211998DA00F8157D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFBD8F97211998DA00F8157D /* PBXTargetDependency */,
+			);
+			name = PayPassWordTests;
+			productName = PayPassWordTests;
+			productReference = CFBD8F95211998DA00F8157D /* PayPassWordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFBD8F9F211998DA00F8157D /* PayPassWordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBD8FAF211998DA00F8157D /* Build configuration list for PBXNativeTarget "PayPassWordUITests" */;
+			buildPhases = (
+				CFBD8F9C211998DA00F8157D /* Sources */,
+				CFBD8F9D211998DA00F8157D /* Frameworks */,
+				CFBD8F9E211998DA00F8157D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFBD8FA2211998DA00F8157D /* PBXTargetDependency */,
+			);
+			name = PayPassWordUITests;
+			productName = PayPassWordUITests;
+			productReference = CFBD8FA0211998DA00F8157D /* PayPassWordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFBD8F75211998D400F8157D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Superman;
+				TargetAttributes = {
+					CFBD8F7C211998D400F8157D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CFBD8F94211998DA00F8157D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CFBD8F7C211998D400F8157D;
+					};
+					CFBD8F9F211998DA00F8157D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CFBD8F7C211998D400F8157D;
+					};
+				};
+			};
+			buildConfigurationList = CFBD8F78211998D400F8157D /* Build configuration list for PBXProject "PayPassWord" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFBD8F74211998D300F8157D;
+			productRefGroup = CFBD8F7E211998D400F8157D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFBD8F7C211998D400F8157D /* PayPassWord */,
+				CFBD8F94211998DA00F8157D /* PayPassWordTests */,
+				CFBD8F9F211998DA00F8157D /* PayPassWordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFBD8F7B211998D400F8157D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBD8F8D211998DA00F8157D /* LaunchScreen.storyboard in Resources */,
+				CFBD8F8A211998DA00F8157D /* Assets.xcassets in Resources */,
+				CFBD8F88211998D400F8157D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBD8F93211998DA00F8157D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBD8F9E211998DA00F8157D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFBD8F79211998D400F8157D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBD8F85211998D400F8157D /* ViewController.m in Sources */,
+				CFBD8F90211998DA00F8157D /* main.m in Sources */,
+				CFBD8F82211998D400F8157D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBD8F91211998DA00F8157D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBD8F9A211998DA00F8157D /* PayPassWordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBD8F9C211998DA00F8157D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBD8FA5211998DA00F8157D /* PayPassWordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFBD8F97211998DA00F8157D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFBD8F7C211998D400F8157D /* PayPassWord */;
+			targetProxy = CFBD8F96211998DA00F8157D /* PBXContainerItemProxy */;
+		};
+		CFBD8FA2211998DA00F8157D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFBD8F7C211998D400F8157D /* PayPassWord */;
+			targetProxy = CFBD8FA1211998DA00F8157D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFBD8F86211998D400F8157D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBD8F87211998D400F8157D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFBD8F8B211998DA00F8157D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBD8F8C211998DA00F8157D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFBD8FA7211998DA00F8157D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFBD8FA8211998DA00F8157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFBD8FAA211998DA00F8157D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayPassWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.PayPassWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFBD8FAB211998DA00F8157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayPassWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.PayPassWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFBD8FAD211998DA00F8157D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayPassWordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.PayPassWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPassWord.app/PayPassWord";
+			};
+			name = Debug;
+		};
+		CFBD8FAE211998DA00F8157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayPassWordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.PayPassWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPassWord.app/PayPassWord";
+			};
+			name = Release;
+		};
+		CFBD8FB0211998DA00F8157D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayPassWordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.PayPassWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayPassWord;
+			};
+			name = Debug;
+		};
+		CFBD8FB1211998DA00F8157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayPassWordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.PayPassWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayPassWord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFBD8F78211998D400F8157D /* Build configuration list for PBXProject "PayPassWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBD8FA7211998DA00F8157D /* Debug */,
+				CFBD8FA8211998DA00F8157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBD8FA9211998DA00F8157D /* Build configuration list for PBXNativeTarget "PayPassWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBD8FAA211998DA00F8157D /* Debug */,
+				CFBD8FAB211998DA00F8157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBD8FAC211998DA00F8157D /* Build configuration list for PBXNativeTarget "PayPassWordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBD8FAD211998DA00F8157D /* Debug */,
+				CFBD8FAE211998DA00F8157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBD8FAF211998DA00F8157D /* Build configuration list for PBXNativeTarget "PayPassWordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBD8FB0211998DA00F8157D /* Debug */,
+				CFBD8FB1211998DA00F8157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFBD8F75211998D400F8157D /* Project object */;
+}
