@@ -30,31 +30,34 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
     self.nextBtn.backgroundColor = [UIColor lightGrayColor];
-    //    [self.nextBtn getRoundView:5];
     
     self.pswArray = [[NSMutableArray alloc]init];
-//    self.textField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, 200, 30)];
-//    self.textField.hidden = YES;
-//    self.textField.keyboardType = UIKeyboardTypeNumberPad;
-//    [self.textField becomeFirstResponder];
-//    [self.textField addTarget:self action:@selector(textChange:) forControlEvents:UIControlEventEditingChanged];
-//    [self.view addSubview:self.textField];
+    self.textField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, 200, 30)];
+    self.textField.hidden = YES;
+    self.textField.keyboardType = UIKeyboardTypeNumberPad;
+    [self.textField becomeFirstResponder];
+    [self.textField addTarget:self action:@selector(textChange:) forControlEvents:UIControlEventEditingChanged];
+    [self.view addSubview:self.textField];
     
     UILabel *lab=[[UILabel alloc]init];
     lab.frame=CGRectMake(10,100 ,SCREEN_WIDTH-10*2 ,25 );
     lab.font=[UIFont systemFontOfSize:13];
     lab.textColor=[UIColor grayColor];
+    lab.textAlignment=NSTextAlignmentCenter;
     lab.text=@"请输入新的支付密码";
     [self.view addSubview:lab];
-    CGFloat pswWid=60;
+    
+    CGFloat pswWid=(SCREEN_WIDTH-10*2)/6;
+//    CGFloat pswWid=60;
     CGFloat pswHei=45;
 
     for (int i = 0; i < 6; i++)
     {
         UITextField * pswTF = [[UITextField alloc]init];
-        pswTF.frame=CGRectMake(10+pswWid*i,150 , pswWid, pswHei);
+        pswTF.frame=CGRectMake(10+(pswWid-1)*i,150 , pswWid, pswHei);
         pswTF.borderStyle=UITextBorderStyleLine;
         pswTF.secureTextEntry = YES;
+        pswTF.tag=i+1;
         pswTF.textAlignment=NSTextAlignmentCenter;
         pswTF.layer.borderColor = [[UIColor grayColor]CGColor];
         pswTF.layer.borderWidth = 1;
@@ -64,6 +67,7 @@
     
     UIButton *nextBtn=[[UIButton alloc]init];
     nextBtn.frame=CGRectMake(30,230 ,SCREEN_WIDTH-60 ,40 );
+    [nextBtn setBackgroundColor:[UIColor grayColor]];
     [nextBtn setTitle:@"下一步" forState:UIControlStateNormal];
     [nextBtn addTarget:self action:@selector(clickNextBtn:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:nextBtn];
