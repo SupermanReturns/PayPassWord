@@ -48,7 +48,6 @@
     [self.view addSubview:lab];
     
     CGFloat pswWid=(SCREEN_WIDTH-10*2)/6;
-//    CGFloat pswWid=60;
     CGFloat pswHei=45;
 
     for (int i = 0; i < 6; i++)
